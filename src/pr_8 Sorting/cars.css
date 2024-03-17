@@ -1,0 +1,68 @@
+.container {
+  margin: auto;
+  padding: 24px;
+  max-width: 1200px;
+}
+
+.bckgrnd {
+  background-color: rgb(193, 246, 211);
+}
+
+.card {
+  width: 23.5%;
+  box-shadow: 0 0 12px 0 rgba(128, 128, 128, 0.50);
+}
+
+.card img {
+  display: block;
+}
+
+.heading {
+  color: #242424;
+  font-weight: bold;
+  font-size: 56px;
+  text-align: center;
+}
+
+.filters {
+  align-items: center;
+}
+
+.filter {
+  width: 100%;
+  padding: 8px 20px;
+  margin-bottom: 24px;
+}
+
+.filter p {
+  font-size: 27px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.filter-options button {
+  text-align: start;
+  font-size: 18px;
+  width: 48%;
+  padding: 4px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.price-range {
+  width: 100%;
+}
